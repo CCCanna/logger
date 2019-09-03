@@ -1,16 +1,11 @@
 {
-  "db_config": {
-    "hostname": "localhost",
-    "user": "root",
-    "password": "demo",
-    "database": "zq_log"
-  },
-  "warning": "在修改路径之前请确保路径存在",
+  "hint": "下面的参数会被用来拼接绝对路径。。。",
   "data_dir": "data",
   "log_dir": "data/log",
   "result_dir": "data/result",
-  "annotation": "下面是文件的名字",
+  "annotation": "下面是文件的名字，存放在data目录下面",
   "user_action": "user_action.csv",
+  "user_ip": "user_ip.csv",
   "user_log": "user_log.csv",
   "user_openid": "user_openid.csv",
   "projection": {
